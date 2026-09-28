@@ -1,0 +1,6 @@
+pydantic>=2.6
+aiogram>=3.20
+
+# облачная модель (cloud_inference.py)
+google-genai>=2.25
+
