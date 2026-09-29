@@ -3,10 +3,10 @@ from pathlib import Path
 
 from agent import Agent
 from kb import KnowledgeBase
-from cloud_inference import chat  # локальная модель: from inference import chat
+from cloud_inference import chat
 from schema import load_studio
 
-STUDIO_FILE = Path(__file__).parent / "modnoe_mesto.json"
+STUDIO_FILE = Path(__file__).parent / "diesel_hard.json"
 STOP_REQUEST = "exit"
 
 

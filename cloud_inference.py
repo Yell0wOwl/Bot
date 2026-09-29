@@ -1,6 +1,6 @@
 """Инференс в облаке: Google Gemini (Interactions API).
 
-Реализует тот же контракт, что и локальный inference.py:
+Реализует контракт модели из agent.py:
     chat(messages, tools) -> Reply
 Формат messages, tools и Reply описан в agent.py. Ключ и модель — в cloud_inference.cfg.
 """
